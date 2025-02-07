@@ -77,7 +77,7 @@ cat urls.txt | ./sqlfuzz -verbose -params params.txt
 ```bash
 » cat ~/.axiom/modules/sqlifuzz.json
 [{
-        "command":"cat input | sqlifuzz -dp -params ~/lists/sqli-params.txt | anew output",
+        "command":"cat input | sqlfuzz -dp -params ~/lists/sqli-params.txt | anew output",
         "ext":"txt"
 }]
 ```
