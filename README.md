@@ -72,6 +72,15 @@ cat urls.txt | ./sqlfuzz -verbose -params params.txt
 - **[ERROR]**: Any errors encountered during the scan.
 - **[INFO]**: General information about the scan progress.
 
+## Axiom Support
+
+```bash
+» cat ~/.axiom/modules/sqlifuzz.json
+[{
+        "command":"cat input | sqlifuzz -dp -params ~/lists/sqli-params.txt | anew output",
+        "ext":"txt"
+}]
+```
 
 ## Contributing
 
